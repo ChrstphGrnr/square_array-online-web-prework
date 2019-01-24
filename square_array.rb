@@ -1,4 +1,3 @@
 def square_array(array)
-  array.each do
-    
+  new_array = array.each {|square| square**2 }
 end
